@@ -1,0 +1,70 @@
+.BestProjectTitle{
+    display: flex;
+}
+#BestProjectText1{
+    margin-left: 170px;
+    color: #1e1e1e;
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-size: 25px;
+}
+#BestProjectText2{
+    margin-left: 1180px;
+    border: #1e1e1e 1px solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.BestProjectPreview{
+    display: flex;
+}
+#BestProjectPreview1{
+    margin-left: 300px;
+}
+#BestProjectPreviewImg{
+    width: 339px;
+    height: 400px;
+}
+#BestProjectPreview2{
+    margin-left: 50px;
+}
+.BestMeeting{
+    margin-top: 60px;
+}
+.BestMeetingTitle{
+    display: flex;
+}
+#BestMeetingText1{
+    margin-left: 170px;
+    color: #1e1e1e;
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-size: 25px;
+}
+#BestMeetingText2{
+    margin-left: 1125px;
+    border: #1e1e1e 1px solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.BestMeetingPreview{
+    display: flex;
+}
+#BestMeetingPreview1{
+    margin-left: 300px;
+}
+#BestMeetingPreviewImg{
+    width: 339px;
+    height: 400px;
+}
+
+#BestMeetingPreview2{
+    margin-left: 50px;
+}
