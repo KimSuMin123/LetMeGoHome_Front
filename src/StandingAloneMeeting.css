@@ -83,9 +83,14 @@ span{
 #MeetingPreview1{
     margin-left: 220px;
 }
+#MeetingPreviewImg1{
+    width: 1500px;
+    height: 600px;
+}
 #MeetingPreviewImg{
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;  
 }
 #MeetingPreviewText{
     color: #1e1e1e;

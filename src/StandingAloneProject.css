@@ -84,8 +84,9 @@ span{
     margin-left: 220px;
 }
 #ProjectPreviewImg{
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
 }
 #ProjectPreviewText{
     color: #1e1e1e;

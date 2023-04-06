@@ -43,6 +43,17 @@ const StandingAloneProject = () => {
                         <img id="ProjectPreviewImg" src={빈화면}/>
                     </div>
                 </div>
+                <div className="ProjectPreviewRe">
+                    <div id="ProjectPreview1">
+                        <img id="ProjectPreviewImg" src={빈화면}/>
+                    </div>
+                    <div id="ProjectPreview2">
+                        <img id="ProjectPreviewImg" src={빈화면}/>
+                    </div>
+                    <div id="ProjectPreview2">
+                        <img id="ProjectPreviewImg" src={빈화면}/>
+                    </div>
+                </div>
                 <div className="Project">
                 <div id="Search">
                     <input id="SearchText" type="text" placeholder="검색어를 입력하세요"/>

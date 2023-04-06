@@ -8,7 +8,7 @@ const StandingAloneMeeting = () => {
                 <p id="MeetingTitle">모임</p>
                 <div className="MeetingPreview">
                     <div id="MeetingPreview1">
-                        <img id="MeetingPreviewImg" src={빈화면}/>
+                        <img id="MeetingPreviewImg1" src={빈화면}/>
                
                         </div>
                     </div>
