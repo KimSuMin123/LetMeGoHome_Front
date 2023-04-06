@@ -1,15 +1,15 @@
 .BestProjectTitle{
-    display: flex;
+     display: flex; 
 }
 #BestProjectText1{
-    margin-left: 170px;
+    margin-left: 125px;
     color: #1e1e1e;
     font-family: 'Pretendard';
     font-weight: 800;
     font-size: 25px;
 }
 #BestProjectText2{
-    margin-left: 1180px;
+    margin-left: 1150px;
     border: #1e1e1e 1px solid;
     border-radius: 50px;
     width: 150px;
@@ -22,11 +22,13 @@
     display: flex;
 }
 #BestProjectPreview1{
-    margin-left: 300px;
+    margin-left: 30px;
 }
 #BestProjectPreviewImg{
-    width: 339px;
+    width: 400px;
     height: 400px;
+    margin-left: 150px;
+
 }
 #BestProjectPreview2{
     margin-left: 50px;
@@ -35,7 +37,7 @@
     margin-top: 60px;
 }
 .BestMeetingTitle{
-    display: flex;
+        display: flex;
 }
 #BestMeetingText1{
     margin-left: 170px;
@@ -45,7 +47,7 @@
     font-size: 25px;
 }
 #BestMeetingText2{
-    margin-left: 1125px;
+    margin-left: 1080px;
     border: #1e1e1e 1px solid;
     border-radius: 50px;
     width: 150px;
@@ -58,13 +60,22 @@
     display: flex;
 }
 #BestMeetingPreview1{
-    margin-left: 300px;
+    margin-left: 30px;
 }
 #BestMeetingPreviewImg{
-    width: 339px;
+    width: 400px;
     height: 400px;
+    margin-left: 150px;
 }
 
 #BestMeetingPreview2{
     margin-left: 50px;
+}
+#EventPreviewimg{
+    height: 450px;
+    width: 1900px;
+}
+.EventPreview{
+    margin-left: 0px;
+    height: 400px;
 }

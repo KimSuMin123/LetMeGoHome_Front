@@ -4,6 +4,7 @@ import StandingAloneProject from "./StandingAloneProject";
 import 메뉴2 from './img/메뉴2.png'
 import 메뉴3 from './img/메뉴3.png'
 import 메뉴4 from './img/메뉴4.png'
+import 미야자키의병아리세계 from './img/미야자키의병아리세계.png'
 import { Route, Routes } from "react-router-dom";
 
 const StandingAloneBestProject = () => {
@@ -20,15 +21,13 @@ const StandingAloneBestProject = () => {
                 <div className="BestProjectPreview">
                     <div id="BestProjectPreview1">
                         <img id="BestProjectPreviewImg" src={메뉴2}/>
-                        <p id="BestProjectPreviewText">우리집 개냥이들 사진!!</p>
                     </div>
                     <div id="BestProjectPreview2">
                         <img id="BestProjectPreviewImg" src={메뉴3}/>
-                        <p id="BestProjectPreviewText">간식 달라고 쳐다보는 고양이 눈빛!!</p>
+
                     </div>
                     <div id="BestProjectPreview2">
                         <img id="BestProjectPreviewImg" src={메뉴4}/>
-                        <p id="BestProjectPreviewText">우리집 개냥이들 사진!!</p>
                     </div>
                 </div>
             </div>
@@ -42,18 +41,20 @@ const StandingAloneBestProject = () => {
                 <div className="BestMeetingPreview">
                     <div id="BestMeetingPreview1">
                         <img id="BestMeetingPreviewImg" src={메뉴3}/>
-                        <p id="BestMeetingPreviewText">(미개봉)고양이 사료<br/>10000원</p>
+
                     </div>
                     <div id="BestMeetingPreview2">
                         <img id="BestMeetingPreviewImg" src={메뉴4}/>
-                        <p id="BestMeetingPreviewText">(실사용 1회) 캣타워<br/>50000원</p>
                     </div>
                     <div id="BestMeetingPreview2">
-                        <img id="BestMeetingPreviewImg" src={메뉴3}/>
-                        <p id="BestMeetingPreviewText">(미개봉) 고양이 사료<br/>10000원</p>
+                        <img id="BestMeetingPreviewImg" src={메뉴2}/>
                     </div>
                 </div>
             </div>
+            <div className="EventPreview">
+                        <img id="EventPreviewimg" src={미야자키의병아리세계}/>
+
+                </div>
             <Routes>
                 <Route path="/StandingAloneMeeting" element={<StandingAloneMeeting/>} />
                 <Route path="/StandingAloneProject" element={<StandingAloneProject/>} />

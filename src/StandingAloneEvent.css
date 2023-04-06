@@ -1,0 +1,10 @@
+.EventPreview{
+    display: flex;
+}
+#EventPreview1{
+    margin-left: 220px;
+}
+#EventPreviewImg{
+    width: 1400px;
+    height: 400px;
+}
