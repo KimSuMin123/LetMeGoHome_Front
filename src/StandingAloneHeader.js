@@ -27,13 +27,13 @@ const StandingAloneHeader = () => {
                 <img className="Login" src={로그인3}/>
                     </NavLink>
                 </li>
-            <ul className = "all">
+            <ul>
                 <li>
                     <NavLink to="/StandingAloneProject">
                         지원사업
                     </NavLink>
                 </li>
-                <li>
+                <li className = "two">
                     <NavLink to="/StandingAloneMeeting">
                         모임
                     </NavLink>

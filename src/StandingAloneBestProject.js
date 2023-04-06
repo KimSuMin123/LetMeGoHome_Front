@@ -20,14 +20,14 @@ const StandingAloneBestProject = () => {
                 </div>
                 <div className="BestProjectPreview">
                     <div id="BestProjectPreview1">
-                        <img id="BestProjectPreviewImg" src={메뉴2}/>
+                        <img id="BestProjectPreviewImg" src={메뉴4}/>
                     </div>
                     <div id="BestProjectPreview2">
-                        <img id="BestProjectPreviewImg" src={메뉴3}/>
+                        <img id="BestProjectPreviewImg" src={메뉴2}/>
 
                     </div>
                     <div id="BestProjectPreview2">
-                        <img id="BestProjectPreviewImg" src={메뉴4}/>
+                        <img id="BestProjectPreviewImg" src={메뉴3}/>
                     </div>
                 </div>
             </div>
@@ -40,14 +40,14 @@ const StandingAloneBestProject = () => {
                 </div>
                 <div className="BestMeetingPreview">
                     <div id="BestMeetingPreview1">
-                        <img id="BestMeetingPreviewImg" src={메뉴3}/>
+                        <img id="BestMeetingPreviewImg" src={메뉴2}/>
 
                     </div>
                     <div id="BestMeetingPreview2">
-                        <img id="BestMeetingPreviewImg" src={메뉴4}/>
+                        <img id="BestMeetingPreviewImg" src={메뉴3}/>
                     </div>
                     <div id="BestMeetingPreview2">
-                        <img id="BestMeetingPreviewImg" src={메뉴2}/>
+                        <img id="BestMeetingPreviewImg" src={메뉴4}/>
                     </div>
                 </div>
             </div>
