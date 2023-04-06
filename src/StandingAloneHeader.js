@@ -52,6 +52,7 @@ const StandingAloneHeader = () => {
                     <Route path="/StandingAloneLogin" element={<StandingAloneLogin/>} />
                     <Route path="/StandingAloneMeeting" element={<StandingAloneMeeting/>} />
                     <Route path="/StandingAloneProject" element={<StandingAloneProject/>} />
+                    <Route path="/" element={<StandingAloneHome/>} />
                     <Route path="/StandingAloneHome" element={<StandingAloneHome />} />
                     <Route path="/StandingAloneCompany" element={<StandingAloneCompany/>} />
                 </Routes>
