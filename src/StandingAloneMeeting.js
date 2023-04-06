@@ -1,6 +1,7 @@
 import './StandingAloneMeeting.css'
 import StandingAloneFooter from "./StandingAloneFooter";
 import 빈화면 from './img/빈화면.png'
+import 밥 from './img/밥.png'
 const StandingAloneMeeting = () => {
     return(
         <div>
@@ -8,7 +9,7 @@ const StandingAloneMeeting = () => {
                 <p id="MeetingTitle">모임</p>
                 <div className="MeetingPreview">
                     <div id="MeetingPreview1">
-                        <img id="MeetingPreviewImg1" src={빈화면}/>
+                        <img id="MeetingPreviewImg1 " src={밥}/>
                
                         </div>
                     </div>

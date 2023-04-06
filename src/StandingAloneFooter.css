@@ -34,7 +34,8 @@ footer {
 #company {
     clear: both;
     margin-top: 25px;
-    margin-left: 200px;
+    margin-left: 250px;
+    text-align: left;
 }
 
 h3{

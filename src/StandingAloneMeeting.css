@@ -79,9 +79,10 @@ span{
 .MeetingPreviewRe{
     display: flex;
     margin-top: 30px;
+    margin-left: 70px;
 }
 #MeetingPreview1{
-    margin-left: 220px;
+    margin-left: 120px;
 }
 #MeetingPreviewImg1{
     width: 1500px;
@@ -99,5 +100,5 @@ span{
     font-weight: 600;
 }
 #MeetingPreview2{
-    margin-left: 90px;
+    margin-left: 100px;
 }
