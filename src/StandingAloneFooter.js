@@ -9,15 +9,6 @@ import { Route, Routes } from "react-router-dom";
 const StandingAloneFooter = () => {
     return (
         <footer>
-            <div id="bottomMenu">
-                <ul>
-                    <li>
-                        <a href="/StandingAloneCompany">
-                            <p>회사 소개</p>
-                        </a>
-                    </li>
-                  
-                </ul>
                 <div id = "Icon">
                     <div id="IconPreview1">
                         <img id="IconPreviewImg" src={인스타그램}/>
@@ -32,12 +23,13 @@ const StandingAloneFooter = () => {
                         <img id="IconPreviewImg" src={페이스북}/>
                     </div>
                     </div>
-            </div>
+          
             <div id="company">
-                <h3>contact</h3>
+               
                 <p> 제작진 : 최진용, 최지민, 이지오, 최서진, 권유현, 이호영<br />
                     주소 : 경기도 안양시 동안구 임곡로 29<br />
-                    전화번호 : 031-467-4700<br/>
+                    전화번호 : 031-467-4700<br/><br/>
+                    ©️ HOLOSEOGI PROVINCE All Rights Reserved
                 </p>
             </div>
             <Routes>
