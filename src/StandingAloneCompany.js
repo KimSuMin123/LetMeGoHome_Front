@@ -1,7 +1,7 @@
 const StandingAloneCompany = () => {
     return(
         <div className="all">
-        avx
+        집가고싶다.
         </div>
     )
 }

@@ -20,22 +20,16 @@ const StandingAloneFooter = () => {
                 </ul>
                 <div id = "Icon">
                     <div id="IconPreview1">
-                        <img id="IconPreviewImg" src={페이스북}/>
-                    </div>
-             
-    
+                        <img id="IconPreviewImg" src={인스타그램}/>
+                    </div>   
+                    <div id="IconPreview1">
+                        <img id="IconPreviewImg" src={트위터}/>
+                    </div>          
                     <div id="IconPreview1">
                         <img id="IconPreviewImg" src={유튜브}/>
                     </div>
-                 
-              
                     <div id="IconPreview1">
-                        <img id="IconPreviewImg" src={인스타그램}/>
-                    </div>
-              
-              
-                    <div id="IconPreview1">
-                        <img id="IconPreviewImg" src={트위터}/>
+                        <img id="IconPreviewImg" src={페이스북}/>
                     </div>
                     </div>
             </div>
