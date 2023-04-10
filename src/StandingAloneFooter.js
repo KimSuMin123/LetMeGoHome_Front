@@ -1,5 +1,9 @@
 import './StandingAloneFooter.css'
 import StandingAloneCompany from "./StandingAloneCompany"
+import 페이스북 from './img/페이스북.png'
+import 유튜브 from './img/유튜브.png'
+import 인스타그램 from './img/인스타그램.png'
+import 트위터 from './img/트위터.png'
 import { Route, Routes } from "react-router-dom";
 
 const StandingAloneFooter = () => {
@@ -12,10 +16,28 @@ const StandingAloneFooter = () => {
                             <p>회사 소개</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="https://policy.naver.com/policy/privacy.html">개인정보처리방침 (네이버와 동일)</a>
-                    </li>
+                  
                 </ul>
+                <div id = "Icon">
+                    <div id="IconPreview1">
+                        <img id="IconPreviewImg" src={페이스북}/>
+                    </div>
+             
+    
+                    <div id="IconPreview1">
+                        <img id="IconPreviewImg" src={유튜브}/>
+                    </div>
+                 
+              
+                    <div id="IconPreview1">
+                        <img id="IconPreviewImg" src={인스타그램}/>
+                    </div>
+              
+              
+                    <div id="IconPreview1">
+                        <img id="IconPreviewImg" src={트위터}/>
+                    </div>
+                    </div>
             </div>
             <div id="company">
                 <h3>contact</h3>

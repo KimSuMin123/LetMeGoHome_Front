@@ -42,3 +42,11 @@ h3{
     font-size: 18px;
     color: darkgrey;
 }
+#IconPreviewImg{
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: -120px;
+    margin-right:190px;
+    float:right;
+}
