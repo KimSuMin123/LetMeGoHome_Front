@@ -46,14 +46,14 @@ span{
     padding-top: 30px;
 }
 #SearchText{
-    margin-top: 10px;
-    margin-bottom: 80px;
+    margin-top: -10px;
+    margin-bottom: 50px;
     font-size: 20px;
     border-radius: 15px;
     padding: 5px;
     font-family: 'Pretendard';
     font-style: normal;
-    margin-left: 780px;
+    margin-left: 980px;
 }
 #SearchSubmit{
     font-family: 'Pretendard';
@@ -70,28 +70,29 @@ span{
 .Meeting{
     margin-top: 60px;
 }
-.MeetingTitle{
-    display: flex;
+#MeetingTitle{
+    margin-left: 0px;
+    margin-top: -50px;
 }
 .MeetingPreview{
     display: flex;
+  
 }
-.MeetingPreviewRe{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 70px;
-}
+
 #MeetingPreview1{
-    margin-left: 120px;
+    margin-left: 180px;
+    width: 350px;
 }
 #MeetingPreviewImg1{
-    width: 1500px;
-    height: 600px;
+    width: 1130px;
+    height: 400px;  
+    border-radius: 20px;
 }
 #MeetingPreviewImg{
-    width: 400px;
-    height: 400px;
-    margin-left: 30px;  
+    width: 355px;
+    height: 355px;
+    border-radius: 30px;
+    
 }
 #MeetingPreviewText{
     color: #1e1e1e;
@@ -100,5 +101,23 @@ span{
     font-weight: 600;
 }
 #MeetingPreview2{
-    margin-left: 100px;
+    margin-left: 180px;
+    width: 350px;
 }
+#MeetingPreview3{
+    margin-left: 38px;
+}
+#pagebar{
+    margin-left: 180px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    border: #1e1e1e 3px solid;
+    border-radius: 10px;
+    width: 1135px;
+   }
+   #page1{
+    margin-left: 20px;
+   }
+   #page{
+    margin-left: 123px;
+   }

@@ -1,13 +1,25 @@
 footer {
-    margin-top: 80px;
+    margin-top: -180px;
+    margin-left: 180px;
+   background-color: lightblue;
+   width: 1140px;
+   display: flex;
+   border-radius: 20px;
 }
 #company {
     clear: both;
-    margin-top: 25px;
-    margin-left: 250px;
+    
     text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: inline-flex;
 }
-
+#Icon{
+    margin-left: 350px;
+    display: inline-flex;
+    margin-top: 90px;
+}
 h3{
     font-size: 18px;
     color: darkgrey;
@@ -15,8 +27,5 @@ h3{
 #IconPreviewImg{
     height: 50px;
     width: 50px;
-    margin-top: 0px;
-    margin-left: -120px;
-    margin-right:190px;
-    float:right;
+    margin-left: 30px;
 }

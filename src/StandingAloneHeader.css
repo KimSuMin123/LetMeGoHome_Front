@@ -20,23 +20,31 @@ ul{
 }
 .LogoImg{
     width: 120px; 
-    margin-left: 120px;
-    margin-right: 110px;
+    margin-left: 80px;
+   
 
 }
 .Logo{
     width: 180px; 
-    margin-left: 60px;
-    margin-right: 340px;
+    margin-left: 450px;
+    margin-right: 450px;
 
 }
 
 li{
     display: inline-flex;
-
     height: 100%;
-
-    vertical-align: top;
+    vertical-align: middle;
+   
+}
+#menu{
+    
+    background-color: lightblue;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    border-radius: 20px;
 }
 
 a{
@@ -45,7 +53,6 @@ a{
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
-    margin-right :340px;
     text-decoration: none;
  }
 

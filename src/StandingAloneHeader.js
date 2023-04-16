@@ -28,22 +28,22 @@ const StandingAloneHeader = () => {
                     </NavLink>
                 </li>
             <ul>
-                <li>
+                <li id= "menu">
                     <NavLink to="/StandingAloneProject">
                         지원사업
                     </NavLink>
                 </li>
-                <li className = "two">
+                <li  id= "menu">
                     <NavLink to="/StandingAloneMeeting">
                         모임
                     </NavLink>
                 </li>
-                <li>
+                <li id= "menu">
                     <NavLink to="/StandingAloneEvent">
                         이벤트
                     </NavLink>
                 </li>
-                <li>
+                <li id= "menu">
                     <NavLink to="/Board">
                         게시판
                     </NavLink>

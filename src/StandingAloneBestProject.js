@@ -13,9 +13,9 @@ import { Route, Routes } from "react-router-dom";
 const StandingAloneBestProject = () => {
     return (
         <div>
-            <div id="BestProject">
+            <div>
                 <div className="BestProjectTitle">
-                    <p id="BestProjectText1">지원사업</p>
+                    <p id="BestProjectText">지원사업</p>
                         <a href="/StandingAloneProject">
                             <p id="BestProjectText2">더보기 &nbsp; +</p>
                         </a>

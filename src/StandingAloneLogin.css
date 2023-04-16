@@ -44,12 +44,12 @@ span{
     margin-left: 200px;
 }
 #LogInImg{
-    width: 800px;
-    height: 320px;
-    margin-left: 320px;
+    width: 500px;
+    height: 200px;
+    margin-left: 250px;
 }
 #LogInput{
-    text-align: center;
+    margin-left: 500px;
     font-size: 35px;
     color: #1e1e1e;
     font-family: 'Pretendard';
@@ -58,6 +58,7 @@ span{
 }
 #LogInId{
     margin-top: 50px;
+    margin-left: 50px;
     font-size: 25px;
     border-radius: 15px;
     padding: 10px;
@@ -67,6 +68,7 @@ span{
 #LogInPassword{
     margin-top: 20px;
     font-size: 25px;
+    margin-left: 15px;
     border-radius: 15px;
     padding: 10px;
     font-family: 'Pretendard';
@@ -78,11 +80,12 @@ span{
     font-size: 20px;
     font-weight: 700;
     color: #1e1e1e;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 210px;
+    padding-right: 210px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 50px;
+    margin-left: 5px;
 }
 #FindId{
     font-family: 'Pretendard';
@@ -90,10 +93,11 @@ span{
     font-size: 15px;
     font-weight: 600;
     color: #1e1e1e;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 7px;
     padding-bottom: 7px;
+    margin-left: 5px;
 }
 #FindPassword{
     font-family: 'Pretendard';
@@ -101,8 +105,8 @@ span{
     font-size: 15px;
     font-weight: 600;
     color: #1e1e1e;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 7px;
     padding-bottom: 7px;
     margin-left: 30px;

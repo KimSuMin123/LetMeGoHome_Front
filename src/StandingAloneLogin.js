@@ -16,7 +16,6 @@ const StandingAloneLogin = () => {
                 <br/>
                     <button id="FindId" type="submit">아이디 찾기</button>
                     <button id="FindPassword" type="submit">비밀번호 찾기</button>
-
                     <button id="NewMember" type="submit">회원가입 하기</button>
             </form>
 

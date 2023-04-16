@@ -46,14 +46,15 @@ span{
     padding-top: 30px;
 }
 #SearchText{
-    margin-top: 10px;
-    margin-bottom: 80px;
+    margin-top: -10px;
+    margin-bottom: 50px;
     font-size: 20px;
     border-radius: 15px;
     padding: 5px;
     font-family: 'Pretendard';
     font-style: normal;
-    margin-left: 780px;
+    margin-left: 980px;
+    
 }
 #SearchSubmit{
     font-family: 'Pretendard';
@@ -69,24 +70,24 @@ span{
 }
 .Project{
     margin-top: 60px;
+    
 }
-.ProjectTitle{
-    display: flex;
+#ProjectTitle{
+    text-align: center;
+    margin-top: -50px;
 }
 .ProjectPreview{
     display: flex;
 }
-.ProjectPreviewRe{
-    display: flex;
-    margin-top: 30px;
-}
+
 #ProjectPreview1{
-    margin-left: 220px;
+    margin-left: 180px;
+    width: 350px;
 }
 #ProjectPreviewImg{
-    width: 400px;
-    height: 400px;
-    margin-left: 30px;
+    width: 355px;
+    height: 355px;
+    border-radius: 30px;
 }
 #ProjectPreviewText{
     color: #1e1e1e;
@@ -95,5 +96,27 @@ span{
     font-weight: 600;
 }
 #ProjectPreview2{
-    margin-left: 90px;
+ margin-left: 38px;
+
 }
+#ProjectPreview3{
+    margin-left: 38px;
+    
+   }
+   .ProjectPreviewLast{
+    display: flex;
+   }
+   #pagebar{
+    margin-left: 180px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    border: #1e1e1e 3px solid;
+    border-radius: 10px;
+    width: 1135px;
+   }
+   #page1{
+    margin-left: 20px;
+   }
+   #page{
+    margin-left: 123px;
+   }

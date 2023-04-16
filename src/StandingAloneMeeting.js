@@ -12,7 +12,7 @@ const StandingAloneMeeting = () => {
                 <p id="MeetingTitle">모임</p>
                 <div className="MeetingPreview">
                     <div id="MeetingPreview1">
-                        <img id="MeetingPreviewImg1 " src={밥}/>
+                        <img id="MeetingPreviewImg1" src={밥}/>
                
                         </div>
                     </div>
@@ -21,42 +21,58 @@ const StandingAloneMeeting = () => {
                 <p id="MeetingTitle">전체</p>
                     <div className="MeetingPreview">
                     </div>
+                    <div id="Search">
+                    <input id="SearchText" type="text" placeholder="검색어를 입력하세요"/>
+                    <button id="SearchSubmit" type="submit">검색</button>
+                </div>
                 </div>
             </div>
-                <div className="MeetingPreviewRe">
-                    <div id="MeetingPreview1">
+                <div className="MeetingPreview">
+                    <div id="MeetingPreview2">
                         <img id="MeetingPreviewImg" src={동아리}/>    
                     </div>
-                    <div id="MeetingPreview2">
+                    <div id="MeetingPreview3">
                         <img id="MeetingPreviewImg" src={산타}/>
                     </div>
-                    <div id="MeetingPreview2">
+                    <div id="MeetingPreview3">
                         <img id="MeetingPreviewImg" src={음악}/>
                     </div>
                     </div>
-                <div className="MeetingPreviewRe">
-                    <div id="MeetingPreview1">
+                <div className="MeetingPreview">
+                    <div id="MeetingPreview2">
                         <img id="MeetingPreviewImg" src={빈화면}/>    
                     </div>
-                    <div id="MeetingPreview2">
+                    <div id="MeetingPreview3">
                         <img id="MeetingPreviewImg" src={빈화면}/>
                     </div>
-                    <div id="MeetingPreview2">
+                    <div id="MeetingPreview3">
                         <img id="MeetingPreviewImg" src={빈화면}/>
                     </div>
                 </div>
-                <div className="MeetingPreviewRe">
-                    <div id="MeetingPreview1">
-                        <img id="MeetingPreviewImg" src={빈화면}/>
-                    </div>
+                <div className="MeetingPreview">
                     <div id="MeetingPreview2">
                         <img id="MeetingPreviewImg" src={빈화면}/>
                     </div>
-                    <div id="MeetingPreview2">
+                    <div id="MeetingPreview3">
+                        <img id="MeetingPreviewImg" src={빈화면}/>
+                    </div>
+                    <div id="MeetingPreview3">
                         <img id="MeetingPreviewImg" src={빈화면}/>
                     </div>
                 </div>
             </div>
+            <div id = "pagebar">
+                <li id ="page1">&lt;</li>
+                <li id ="page">1</li>
+                <li id ="page">2</li>
+                <li id ="page">3</li>
+                <li id ="page">4</li>
+                <li id ="page">5</li>
+                <li id ="page">6</li>
+                <li id ="page">7</li>
+                
+                <li id ="page">&gt;</li>
+               </div>
             <StandingAloneFooter/>
         </div>
 
