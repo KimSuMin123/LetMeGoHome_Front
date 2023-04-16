@@ -10,6 +10,11 @@ import StandingAloneProject from "./StandingAloneProject";
 import StandingAloneHome from "./StandingAloneHome";
 import StandingAloneCompany from "./StandingAloneCompany";
 import StandingAloneEvent from "./StandingAloneEvent";
+import StandingAloneBoard1 from "./StandingAloneBoard";
+import StandingAloneBoardWrite from "./StandingAloneBoardWrite";
+import StandingAloneBoardWrite2 from "./StandingAloneBoardWrite2";
+import StandingAloneBoardWrite4 from "./StandingAloneBoardWrite4";
+
 const StandingAloneHeader = () => {
     return(
         <div>
@@ -44,7 +49,7 @@ const StandingAloneHeader = () => {
                     </NavLink>
                 </li>
                 <li id= "menu">
-                    <NavLink to="/Board">
+                    <NavLink to="/StandingAloneBoard">
                         게시판
                     </NavLink>
                 </li>
@@ -56,6 +61,10 @@ const StandingAloneHeader = () => {
                     <Route path="/StandingAloneEvent" element={<StandingAloneEvent/>} />
                     <Route path="/StandingAloneHome" element={<StandingAloneHome />} />
                     <Route path="/StandingAloneCompany" element={<StandingAloneCompany/>} />
+                    <Route path="/StandingAloneBoard" element={<StandingAloneBoard1/>} />
+                    <Route path="/StandingAloneBoardWrite" element = {<StandingAloneBoardWrite/>}/>
+                    <Route path="/StandingAloneBoardWrite2" element = {<StandingAloneBoardWrite2/>}/>
+                    <Route path="/StandingAloneBoardWrite3" element = {<StandingAloneBoardWrite4/>}/>
                     <Route path="/" element={<StandingAloneHome/>} />
                 </Routes>
         </div>

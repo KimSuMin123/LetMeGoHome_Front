@@ -1,90 +1,121 @@
-import React, {useState, useEffect,useRef } from 'react';
+import { Link, NavLink, Route, Routes } from "react-router-dom";
 import './StandingAloneBoard.css'
-const StandingAloneBoard = () => {
-    const [data, setdata] = useState([]); //게시판의 모든 데이터를 보관해 둘 useState입니다.
-    const [inputs, setInputs] = useState('');//추가할 텍스트를 입력할 인풋 박스 값입니다.
-    const [Modifyinputs, setModifyInputs] = useState('');//추가할 텍스트를 입력할 인풋 박스 값입니다.
-
-    const onChange = (e) => { // 추가할 데이터 설정
-        const { name, value } = e.target
-        setInputs(value);
-    }
-    const onChangeModify = (e) => {// 수정할 데이터 설정
-        const { name, value } = e.target
-        setModifyInputs(value);
-    }
-    function addData(){ //데이터 추가
-        let newData = []
-        for(let i=0; i<data.length;i++){
-            newData = [...newData, data[i]]
-        }
-        newData = [...newData,{text:inputs,Idx:data.length,ModifyState:false}]
-        console.log(newData);
-        setdata(newData);
-    }
-
-    function deleteData(GetIdx){ //데이터 삭제
-        setdata(data.filter(data => data.Idx !== GetIdx));
-    }
-
-
-    function ModifyData(GetData){ //데이터 수정
-        let newArr = [];
-        for(let i=0; i<data.length;i++){
-            if(data[i].Idx=== GetData.Idx){
-                newArr = [...newArr,{text:Modifyinputs,Idx:GetData.Idx,ModifyState:false}];
-            }else{
-                newArr = [...newArr,data[i]];
-            }
-            setdata(newArr);
-        }
-    }
-
-    function OnOffModifyInput(GetData){ //수정 버튼 눌렀을 때, div -> input or input -> div로 바꾸는 함수
-        let newArr = [];
-        for(let i=0; i<data.length;i++){
-            if(data[i].Idx=== GetData.Idx){
-                if(GetData.ModifyState === false){
-                    newArr = [...newArr,{text:GetData.text,Idx:GetData.Idx,ModifyState:true}];
-                }else{
-                    newArr = [...newArr,{text:GetData.text,Idx:GetData.Idx,ModifyState:false}];
-                }
-            }else{
-                newArr = [...newArr,data[i]];
-            }
-            setdata(newArr);
-        }
-    }
-
-    return (
-        <div className="App">
-            <h1>모달창 예제</h1>
-            <div style={{display:"flex"}}>
-                <input onChange={onChange}></input>
-                <button onClick={addData}>추가</button>
-            </div>
-            {data.map((data,i) => (
-                <div style={{display:"flex", border:"1px solid", width:"400px"}}>
-                    {data.ModifyState ===true ?
-                        <div>
-                            <textarea onChange={onChangeModify} >{data.text}</textarea>
-                            <button onClick={(e)=>{ModifyData(data, e)}}>수정</button>
-                            <button onClick={(e)=>{OnOffModifyInput(data, e)}}>취소</button>
-                        </div>
-
-                        :
-                        <div>
-                            <div>{data.text}</div>
-                            <button onClick={(e)=>{OnOffModifyInput(data, e)}}>수정</button>
-                            <button onClick={(e)=>{deleteData(data.Idx, e)}}>삭제</button>
-                        </div>
-                    }
-
-
+import StandingAloneFooter from "./StandingAloneFooter";
+const StandingAloneBoard1 = () => {
+    return(
+        <div>
+            <p id="BoardTitle">게시판</p>
+            <div id="Search">
+                    <input id="SearchText" type="text" placeholder="검색어를 입력하세요"/>
+                    <button id="SearchSubmit" type="submit">검색</button>
                 </div>
-            ))
-            }
+            <table>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>날짜</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 1
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 2
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 3
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 4
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 5
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 6
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 7
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        <NavLink to="/StandingAloneBoardWrite3">
+                            글의 제목 - 8
+                        </NavLink>
+                    </td>
+                    <td>작성자</td>
+                    <td>2023.04.14</td>
+                </tr>
+                
+            </table>
+            <NavLink to="/StandingAloneBoardWrite2">
+                <button id="write">글쓰기</button>
+            </NavLink>
+            <div id = "pagebar">
+                <li id ="page1">&lt;</li>
+                <li id ="page">1</li>
+                <li id ="page">2</li>
+                <li id ="page">3</li>
+                <li id ="page">4</li>
+                <li id ="page">5</li>
+                <li id ="page">6</li>
+                <li id ="page">7</li>
+                
+                <li id ="page">&gt;</li>
+               </div>
+                <StandingAloneFooter/>
         </div>
-    );
+    )
 }
-export default StandingAloneBoard
+
+export default StandingAloneBoard1;

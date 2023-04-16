@@ -1,4 +1,77 @@
-*{
-    position: center;
-
-}
+/* 링크 색상 (중요하지 않음) */
+a {
+    text-decoration: none;
+    color: #333;
+  }
+  #BoardTitle
+{
+  font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #1e1e1e;
+    text-align: center;
+    padding-top: 30px;
+}  
+a:hover {color: #6199ff;}
+  
+  /* 테이블 색상 (중요하지 않음) */
+  table {
+    width: 1150px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+  }
+  th {
+    background: #3498db;
+    color: #fff;
+  }
+  td, th {
+    border: 1px solid #dbdbdb;
+    padding: 5px 20px;
+    font-size:12px;
+  }
+  tr:nth-of-type(odd) { 
+      background: #eee; 
+  }
+  
+  /* 체크박스의 크기 */
+  .check {
+    width:15px;
+    height:15px;
+  }
+  
+  /* 컬럼의 너비 */
+  .select {width: 3%;}
+  .no {width: 15%;}
+  .title {/* 나머지가 자동으로 맞춰집니다. */}
+  .writer {width: 20%;}
+  .date {width: 15%;}
+  
+  /* 컬럼의 정렬 */
+  tr td:nth-child(1){text-align:center;}
+  tr td:nth-child(2){text-align:center;}
+  tr td:nth-child(3){text-align:left;}
+  tr td:nth-child(4){text-align:center;}
+  tr td:nth-child(5){text-align:center;}
+  #write{
+    margin-left: 1250px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #pagebar{
+    margin-left: 180px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    border: #1e1e1e 3px solid;
+    border-radius: 10px;
+    width: 1135px;
+   }
+   #page1{
+    margin-left: 20px;
+   }
+   #page{
+    margin-left: 123px;
+   }
