@@ -1,6 +1,7 @@
 import { Link, NavLink, Route, Routes } from "react-router-dom";
 import './StandingAloneBoard.css'
 import StandingAloneFooter from "./StandingAloneFooter";
+import boardData from "../src/data/board.json";
 const StandingAloneBoard1 = () => {
     return(
         <div>
@@ -20,10 +21,10 @@ const StandingAloneBoard1 = () => {
                     <td>1</td>
                     <td>
                         <NavLink to="/StandingAloneBoardWrite3">
-                            글의 제목 - 1
+                            {boardData.title}
                         </NavLink>
                     </td>
-                    <td>작성자</td>
+                    <td>{boardData.username}</td>
                     <td>2023.04.14</td>
                 </tr>
                 <tr>
